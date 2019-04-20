@@ -1,0 +1,47 @@
+.todos {
+
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        flex-wrap: wrap;
+        min-height: 100vh;
+        align-items: center;
+        text-align: center;
+        font-size: calc(10px + 2vmin);
+        color: white;
+
+
+    .addTask {
+        padding: 1em 0;
+        padding-top: 100px;
+        input {
+            all:unset;
+            border-bottom: 2px black;
+            color: black;
+            font-size: 40px;
+            align-items: center;
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom-style: solid;
+        }
+    }
+
+    .taskList {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex:1;
+    }
+}
+
+.appName {
+    padding-right: 100vw;
+    padding-left: 20px;
+    font-size: 25px;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
